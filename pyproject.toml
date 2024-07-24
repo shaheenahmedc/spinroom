@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spinroom"
+version = "0.1.0"
+description = ""
+authors = ["Shaheen Ahmed-Chowdhury <shaheen.ahmed@live.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.37.0"
+gh = "^0.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
